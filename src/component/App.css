@@ -300,4 +300,9 @@ div .btn-primary {
   .about-text-2 {
     padding: 10px;
   }
+  .card-body img {
+    width: 180px;
+    height: 90px;
+    margin: auto;
+  }
 }

@@ -2,7 +2,7 @@ function Previous() {
   return (
     <div className='container-fluid'>
       <div>
-        <div className='card-body'>
+        <div className='card-body prev'>
           <h1
             className='text-center w-75 m-auto'
             style={{ letterSpacing: '.1rem' }}
