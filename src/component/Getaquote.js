@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
+import config from '../config'
 
 function Getaquote() {
   const [name, setName] = useState('')
@@ -19,10 +20,10 @@ function Getaquote() {
 
     emailjs
       .sendForm(
-        'service_jwq4k7s',
-        'template_wpe213i',
+        config.MY_API_TOKEN,
+        config.SECRET_API_KEY,
         form.current,
-        'csaTrSX49Eo0hAQao'
+        config.SECRET_HOST_KEY
       )
       .then(
         (result) => {
@@ -33,7 +34,6 @@ function Getaquote() {
         }
       )
 
-    alert('Email sent!')
     handleResetMessage()
   }
 
