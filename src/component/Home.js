@@ -1,5 +1,5 @@
 import React from 'react'
-import UncontrolledExample from './Carousel'
+import Slide from './Carousel'
 import Cards from './Cards'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
@@ -10,7 +10,7 @@ const Home = () => {
     <div className='home-main'>
       <div>
         <div className='carousel-container'>
-          <UncontrolledExample />
+          <Slide />
         </div>
       </div>
       <div>
@@ -36,13 +36,12 @@ const Home = () => {
             >
               <h2>Welcome to FFS Logistics</h2>
               <br />
-              {/* <p className='about-text-1'></p> */}
+
               <div>
-                {/* <div className='about-text-2-container'></div> */}
                 <div className='about-text-2-line'></div>
                 <p className='about-text-2'>
                   We offer logistics and transportation services to companies
-                  with varied needs—anything from dedicated services to last
+                  with varied needs, anything from dedicated services to last
                   minute shipments. Our customer base encompasses industries
                   such as food, beverage, produce, manufacturing, retail,
                   recycling, and much more.
