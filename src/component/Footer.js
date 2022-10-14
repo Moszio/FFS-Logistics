@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaFacebookSquare } from 'react-icons/fa'
-import { FaTwitterSquare } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
+// import { FaTwitterSquare } from 'react-icons/fa'
+import { FaMailBulk } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -11,11 +11,11 @@ const Footer = () => {
           <a href='https://www.facebook.com/'>
             <FaFacebookSquare />
           </a>
-          <a href='https://www.linkedin.com/'>
+          {/* <a href='https://www.linkedin.com/'>
             <FaTwitterSquare />
-          </a>
-          <a href='https://www.instagram.com/'>
-            <FaInstagram />
+          </a> */}
+          <a href='mailto:latandor@gmail.com?subject=FFS Logistics Mail'>
+            <FaMailBulk />
           </a>
         </div>
         <ul className='list-inline'>

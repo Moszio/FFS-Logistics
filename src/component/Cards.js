@@ -27,7 +27,7 @@ function Cards() {
                 <i className='fas fa-mobile-alt fa-3x'></i>
                 <div className='card-title'>INFORMATIVE</div>
                 <p>
-                  <small>We are prepared to answer all your quesitons.</small>
+                  <small>Detailed and consistent information.</small>
                 </p>
               </div>
             </div>
@@ -36,7 +36,7 @@ function Cards() {
                 <i className='fas fa-hourglass fa-3x'></i>
                 <div className='card-title'>SAVE TIME</div>
                 <p>
-                  <small>Get a quote in just a few clicks</small>
+                  <small>Get in touch with just a few clicks.</small>
                 </p>
               </div>
             </div>

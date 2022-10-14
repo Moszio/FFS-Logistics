@@ -299,10 +299,20 @@ div .btn-primary {
 
   .about-text-2 {
     padding: 10px;
+    text-align: center;
   }
   .card-body img {
     width: 180px;
     height: 90px;
     margin: auto;
+  }
+
+  .welcome-msg {
+    text-align: center;
+  }
+
+  .collapse,
+  #navbarCollapse {
+    text-align: center;
   }
 }

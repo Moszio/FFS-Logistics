@@ -34,7 +34,7 @@ const Home = () => {
               className='col text-col'
               style={{ fontSize: '20px', letterSpacing: '.1rem' }}
             >
-              <h2>Welcome to FFS Logistics</h2>
+              <h2 className='welcome-msg'>Welcome to FFS Logistics</h2>
               <br />
 
               <div>
@@ -49,7 +49,7 @@ const Home = () => {
                 <div className='about-us-btn-container'>
                   <button className='about-us-btn'>
                     <Link to='/quote' className='nav-item nav-link'>
-                      Contact
+                      Quote
                     </Link>
                   </button>
                 </div>

@@ -86,7 +86,7 @@ function Getaquote() {
                 <div className='d-grid'>
                   {name === '' || email === '' || message === '' ? (
                     <button
-                      disabled={!message}
+                      disabled
                       className='btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2'
                       type='submit'
                     >
