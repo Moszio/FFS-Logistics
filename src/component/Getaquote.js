@@ -70,7 +70,7 @@ function Getaquote() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                  <label htmlFor='floatingInput'>Your email*</label>
+                  <label htmlFor='floatingInput'>Your Email*</label>
                 </div>
                 <div className='form-floating mb-3'>
                   <textarea

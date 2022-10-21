@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaFacebookSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 // import { FaTwitterSquare } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 
@@ -8,13 +8,13 @@ const Footer = () => {
     <div className='footer-basic bg-light'>
       <footer>
         <div className='social'>
-          <a href='https://www.facebook.com/'>
-            <FaFacebookSquare />
+          <a href='http://www.linkedin.com/company/ffs-logistics/'>
+            <FaLinkedin />
           </a>
           {/* <a href='https://www.linkedin.com/'>
             <FaTwitterSquare />
           </a> */}
-          <a href='mailto:latandor@gmail.com?subject=FFS Logistics Mail'>
+          <a href='mailto:dispatch@ffs-logistics.com?subject=FFS Logistics Mail'>
             <FaMailBulk />
           </a>
         </div>

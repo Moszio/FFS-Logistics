@@ -19,7 +19,7 @@ const App = () => {
         </div>
         <div>
           <div>
-            <i className='fa-solid fa-envelope'></i> nemanja@gmail.com
+            <i className='fa-solid fa-envelope'></i> dispatch@ffs-logistics.com
           </div>
         </div>
       </div>

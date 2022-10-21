@@ -17,6 +17,7 @@
 .contact-top-nav {
   display: flex;
   justify-content: flex-end;
+  color: #606060;
 }
 .contact-top-nav div {
   margin: 0 10px 0 0;
@@ -314,5 +315,10 @@ div .btn-primary {
   .collapse,
   #navbarCollapse {
     text-align: right;
+  }
+  .contact-top-nav {
+    display: flex;
+    justify-content: center;
+    color: #606060;
   }
 }
