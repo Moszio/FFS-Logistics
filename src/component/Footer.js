@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { FaLinkedin } from 'react-icons/fa'
-// import { FaTwitterSquare } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 
 const Footer = () => {
@@ -11,9 +10,6 @@ const Footer = () => {
           <a href='http://www.linkedin.com/company/ffs-logistics/'>
             <FaLinkedin />
           </a>
-          {/* <a href='https://www.linkedin.com/'>
-            <FaTwitterSquare />
-          </a> */}
           <a href='mailto:dispatch@ffs-logistics.com?subject=FFS Logistics Mail'>
             <FaMailBulk />
           </a>

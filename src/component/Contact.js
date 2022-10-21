@@ -50,7 +50,7 @@ function Contact() {
                       aria-hidden='true'
                     ></i>
                     <h4 className='text-uppercase mb-5'>email</h4>
-                    <p>nemanja@gmail.com</p>
+                    <p>dispatch@ffs-logistics.com</p>
                   </div>
                 </div>
               </div>
