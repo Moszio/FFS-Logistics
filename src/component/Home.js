@@ -23,11 +23,12 @@ const Home = () => {
         <div className='container'>
           <div className='row align-items-center'>
             <div></div>
-            <div className='col-md-4 col-lg-6'>
+            <div className='col-md-4 col-lg-6 company-logo'>
               <img
                 style={{ width: '100%' }}
                 src='../../Logo.jpg'
                 alt='company-logo'
+                className='company-logo'
               />
             </div>
             <div
